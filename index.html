@@ -1,19 +1,105 @@
 <!DOCTYPE html>
 <html lang="lt">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Papildoma užduotis: HTML dokumento šablonas">
-    <meta name="author" content="Nedas Adulis">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skriptinio programavimo laboratoriniai</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Nedas Adulis - Programavimo laboratorinis</title>
+  <meta content="Elektronikos inžinierijos antro kurso studentas" name="description">
+  <meta content="Nedas Adulis, programavimas, laboratorinis" name="keywords">
+
+  <!-- Sukūrė: Nedas Adulis -->
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Čia bus pagrindinis turinys -->
-    <h1>Sveiki atvykę!</h1>
-    <p>Čia yra mano pirmasis HTML puslapis.</p>
-    <p><b>Paryškintas tekstas</b></p>
-    <p><i>Pasvirasis tekstas</i></p>
-    <p><u>Pabrauktas tekstas</u></p>
+
+  <header id="header" class="header">
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="Profilio nuotrauka" class="img-fluid rounded-circle">
+    </div>
+    <h1 class="sitename">Nedas Adulis</h1>
+  </header>
+
+  <main>
+
+    <!-- Apie mane -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <h2>Apie mane</h2>
+        <p>
+          Sveiki, mano vardas Nedas Adulis. Esu Elektronikos inžinierijos antro kurso studentas. Mėgstu programuoti ir tai yra mano programavimo laboratorinis darbas.
+        </p>
+        <ul>
+          <li><strong>Gimimo data:</strong> 2004 m. rugpjūčio 7 d.</li>
+          <li><strong>Gimimo vieta:</strong> Vilnius</li>
+          <li><strong>Pomėgiai:</strong> Programavimas, naujų technologijų tyrinėjimas</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Aprašymo (Resume) skiltis -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+        <h2>Aprašymas</h2>
+        <p>Detalė informacija apie mano įgūdžius ir pasiekimus bus pridėta vėliau.</p>
+      </div>
+    </section>
+
+    <!-- Portfolio skiltis -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <h2>Atlikti darbai</h2>
+        <div class="portfolio-item">
+          <img src="assets/img/project1.jpg" alt="Projektas 1" class="img-fluid">
+          <p>Čia mano programavimo kursinis darbas iš pirmo semestro. Tai programa kuria gali remtis žaidžiant žaidimą League of Legends, kad žinotum optimaliausias taktikas priklausant nuo tavo priešininko.</p>
+        </div>
+        <div class="portfolio-media">
+          <h3>Vaizdo įrašas</h3>
+          <video controls width="100%">
+            <source src="assets/videos/sample-video.mp4" type="video/mp4">
+            Jūsų naršyklė nepalaiko vaizdo įrašų.
+          </video>
+          <h3>Garso įrašas</h3>
+          <audio controls>
+            <source src="assets/audio/sample-audio.mp3" type="audio/mpeg">
+            Jūsų naršyklė nepalaiko garso įrašų.
+          </audio>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+      <p>© 2025 Nedas Adulis. Visos teisės saugomos.</p>
+    </div>
+  </footer>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
